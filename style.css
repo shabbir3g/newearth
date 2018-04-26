@@ -1,0 +1,452 @@
+/*
+Theme Name: New Earth
+Theme URI: http://shabbir.com
+Author: Mostafiz Shabbir
+Author URI: http://shabbir.com
+Description: This theme is clean, blog-focused, and designed for clarity. it's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+img {
+  width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.header-bg {
+  
+}
+
+h2:hover {
+  opacity: .5;
+}
+
+.navbar-nav li a {
+  color: #FFFFFF !important;
+  font-size: 25px;
+  font-family: tahoma;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 30px !important;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.navbar-nav li a:hover {
+  opacity: .5;
+}
+
+.form-inline {
+  float: right;
+  position: relative;
+}
+.form-inline i.fa-search {
+  position: absolute;
+  top: 12px;
+  right: 21px;
+}
+.form-inline input {
+  background: transparent;
+  border: 1px solid #21722c;
+  color: #000;
+  width: 178px !important;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.form-inline input:focus {
+  width: 250px !important;
+}
+
+.social-icons {
+  overflow: hidden;
+  text-align: right;
+}
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+}
+.social-icons ul li {
+  list-style: none;
+  margin: 5px;
+  display: inline-grid;
+}
+.social-icons ul li a {
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+.social-icons ul li a img {
+  width: 100%;
+  width: 100%;
+}
+
+.right-area {
+  float: right;
+}
+
+/* Banner area*/
+#banner-area {
+  background-size: 100% 100%;
+  min-height: 500px;
+  text-align: center;
+  overflow: hidden;
+}
+#banner-area .banner-cont {
+  background: #39b54a;
+  width: 400px;
+  padding: 11px;
+  margin: 180px auto;
+  border: 2px solid #040404;
+  border-radius: 10px;
+}
+#banner-area .banner-cont h2 {
+  font-size: 25px;
+  color: #fff;
+}
+
+#recycling-section .container > h2 {
+  color: #39b54a;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #39b54a;
+  padding: 20px 0;
+}
+#recycling-section .link-blok .single-block {
+  background: #39b54a;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+  padding: 30px;
+}
+#recycling-section .link-blok .single-block:hover {
+  background: green;
+}
+#recycling-section .link-blok .single-block .icons {
+  color: #fff;
+  font-size: 30px;
+  float: left;
+  overflow: hidden;
+  width: 10%;
+}
+#recycling-section .link-blok .single-block .title {
+  float: left;
+  overflow: hidden;
+  width: 90%;
+}
+#recycling-section .link-blok .single-block .title h2 {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+#recycling-section .link-blok .single-block .link {
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#recycling-section .link-blok .single-block .link img {
+  width: 100%;
+  display: block;
+}
+#recycling-section .latest-news {
+  background: #fff;
+  -webkit-box-shadow: -1px 3px 28px 12px #ddd;
+          box-shadow: -1px 3px 28px 12px #ddd;
+overflow: hidden;
+padding: 20px;
+}
+#recycling-section .latest-news > h2 {
+  color: #39b54a;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#recycling-section .latest-news .blog .signle-blog {
+  padding: 40px 0;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(1) {
+  padding: 20px;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(1) .psot-image {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(1) .psot-image a {
+  width: 100px;
+  display: block;
+  height: 100px;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(1) .psot-image a img {
+  width: 100%;
+  height: 100%;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(1) .post-content {
+  width: 80%;
+  overflow: hidden;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(2) {
+  padding: 20px;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(2) .psot-image {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(2) .psot-image a {
+  width: 250px;
+  display: block;
+  height: 250px;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(2) .psot-image a img {
+  width: 100%;
+  height: 100%;
+  
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(2) .post-content {
+  width: 50%;
+  overflow: hidden;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(3) {
+  padding: 20px;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(3) .psot-image {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(3) .psot-image a {
+  width: 250px;
+  display: block;
+  height: 250px;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(3) .psot-image a img {
+  width: 100%;
+  height: 100%;
+}
+#recycling-section .latest-news .blog .signle-blog:nth-child(3) .post-content {
+  width: 50%;
+  overflow: hidden;
+}
+
+#about-section h2 {
+  color: #39b54a;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#about-section .about-video {
+  width: 50%;
+  margin: 50px auto;
+}
+#about-section p {
+  text-align: center;
+}
+
+#contact-section .container > h2 {
+  color: #39b54a;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#contact-section .container .inputarea {
+  margin: 10px 0;
+  width: 80%;
+}
+#contact-section .container .inputarea input[type=submit] {
+  float: right;
+  overflow: hidden;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#contact-section .container .contact-loc h2 {
+  color: #39b54a;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 3px solid #39b54a;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#contact-section .container .contact-loc .address {
+  overflow: hidden;
+  margin: 20px 0;
+}
+#contact-section .container .contact-loc .add-icons {
+  float: left;
+  width: 20%;
+  overflow: hidden;
+}
+#contact-section .container .contact-loc .add-icons i {
+  text-align: left;
+  display: block;
+  color: #39b54a;
+  font-size: 50px;
+}
+#contact-section .container .contact-loc .add-cont {
+  width: 80%;
+  overflow: hidden;
+}
+#contact-section .container .contact-loc .add-cont p {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+#contact-section .container .contact-loc .add-cont p span {
+  display: block;
+  text-align: center;
+}
+
+footer#footer-section {
+
+  margin-top: 30px;
+}
+footer#footer-section .footer-menu ul {
+  margin: 40px 0;
+  padding: 0;
+}
+footer#footer-section .footer-menu ul li {
+  float: left;
+  list-style: none;
+  overflow: hidden;
+}
+footer#footer-section .footer-menu ul li a {
+  color: #fff;
+  padding: 20px 10px;
+}
+footer#footer-section .social-icons h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+/*landing page */
+#banner-area-ln {
+  
+  background-size: 100% 100%;
+  min-height: 500px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#new-section .container > h2 {
+  color: #39b54a;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 0;
+}
+#new-section .container .row {
+  margin-top: 20px;
+}
+#new-section .container .row .getin-news h2 {
+  color: #39b54a;
+  margin-bottom: 30px;
+}
+#new-section .container .row .getin-news .cont-form .inputarea {
+  margin-bottom: 20px;
+}
+#new-section .container .row .getin-news .cont-form .inputarea input, #new-section .container .row .getin-news .cont-form .inputarea textarea {
+  border: 1px solid #000;
+}
+#new-section .container .row .getin-news .cont-form .inputarea input[type=submit] {
+  margin-top: 30px;
+  cursor: pointer;
+  background: #fff;
+}
+
+#contact-us-section .address-cont-ln {
+  text-align: center;
+}
+#contact-us-section .address-cont-ln h2 {
+  color: #39b54a;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+#contact-us-section .address-cont-ln p {
+  margin: 30px 0;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#testimonial-section {
+  
+  margin: 40px 0;
+}
+#testimonial-section .border-row {
+  text-align: left;
+  width: 50%;
+  overflow: hidden;
+}
+#testimonial-section .border-row h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 50px;
+}
+#testimonial-section hr {
+  border-top: none;
+  border-bottom: 1px solid #020202;
+  text-align: left;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.signles-blog{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.signles-blog .post-image{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+
+.signles-blog .post-content{
+	width: 70%;
+	float: left;
+	overflow: hidden;
+}
+.signles-blog .post-content p {
+	padding: 0 20px;
+}
+.signles-blog .post-content h2{
+	color: #39b54a;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+.signles-blog .post-content a{
+	text-decoration: none;
+}
+#recyclings-section h2{
+	color: #39b54a;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.post-content a {
+	margin-left: 20px;
+	display: block;
+}

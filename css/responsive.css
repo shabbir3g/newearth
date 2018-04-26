@@ -1,0 +1,61 @@
+@media all and (max-width: 1024px){
+	.navbar-nav li a {
+	color: #FFFFFF !important;
+	font-size: 21px;
+	font-family: tahoma;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0 17px !important;
+	letter-spacing: 1px;
+}
+}
+@media (max-width: 991px) {
+   .right-area {
+	float: right;
+	margin-top: 30px;
+}
+.navbar-nav li a {
+	text-align: center;
+}
+.right-area {
+	float: none;
+	margin-top: 30px;
+	width: 205px;
+	margin: auto;
+}
+#about-section .about-video {
+	width: 80%;
+}
+#contact-section .container .inputarea {
+	width: 100%;
+}
+.contact-loc {
+	text-align: center;
+}
+#contact-section .container .contact-loc .add-icons i {
+	text-align: center;
+}
+#contact-section .container .contact-loc .add-icons {
+	float: none;
+	width: 100%;
+}
+#contact-section .container .contact-loc .add-cont {
+	width: 100%;
+}
+.social-icons {
+	text-align: center;
+}
+.footer-menu {
+	text-align: center;
+}
+footer#footer-section .footer-menu ul li {
+	float: none;
+	display: inline;
+	text-align: center;
+}
+}
+
+@media all and (max-width: 364px){
+	
+	
+}
